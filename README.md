@@ -1,5 +1,17 @@
-<img width="1254" height="1254" alt="RemoteEnv" src="https://github.com/user-attachments/assets/dcbb291e-2a23-42b2-b26e-7387678cebb8" />
+<p align="center">
+  <img src="./public/RemoteEnv.png" alt="RemoteEnv Logo" width="220" />
+</p>
+
 # RemoteEnv
+
+Simple key-value storage with support for multiple backends.
+
+RemoteEnv is a centralized platform to manage, encrypt, and sync environment variables across services and environments through API, CLI, and dashboard workflows.
+
+![Build](https://img.shields.io/badge/build-passing-22c55e)
+![Bun](https://img.shields.io/badge/bun-supported-f9f1e1?logo=bun&logoColor=000000)
+![Codecov](https://img.shields.io/badge/codecov-enabled-f97316?logo=codecov&logoColor=ffffff)
+![npm](https://img.shields.io/npm/v/%40lithigesh%2Fremoteenv?color=cb3837&logo=npm)
 
 ## What is RemoteEnv?
 
@@ -82,21 +94,10 @@ env-service run --project payments-service --env dev -- npm start
 
 ## Dashboard screenshots
 
-Add product screenshots here before publishing to npm.
+![Dashboard](./public/dashboard.png)
+![Add Variable](./public/add_variable.png)
+![Bulk Import](./public/bulk_import.png)
 
-Suggested images:
-
-- Project list and creation flow
-- Environment selector (`dev` / `staging` / `production`)
-- Variable table with create/update/delete actions
-- Bulk `.env` import panel
-
-Markdown example:
-
-```md
-![Projects Dashboard](./docs/screenshots/projects.png)
-![Environment Variables](./docs/screenshots/variables.png)
-```
 
 ## Encryption architecture
 
