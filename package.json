@@ -1,6 +1,6 @@
 {
   "name": "@lithigesh/remoteenv",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "EnvOps backend service for managing encrypted environment variables",
   "main": "dist/src/main.js",
   "bin": {
