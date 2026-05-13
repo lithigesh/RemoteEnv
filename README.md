@@ -26,13 +26,13 @@ RemoteEnv helps by:
 Install from npm:
 
 ```bash
-npm install -g RemoteEnv
+npm install -g @lithigesh/remoteenv
 ```
 
 Or use without global install:
 
 ```bash
-npx RemoteEnv --help
+npx @lithigesh/remoteenv --help
 ```
 
 For local development from source:

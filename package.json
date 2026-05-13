@@ -1,9 +1,10 @@
 {
-  "name": "RemoteEnv",
+  "name": "@lithigesh/remoteenv",
   "version": "1.0.0",
   "description": "EnvOps backend service for managing encrypted environment variables",
   "main": "dist/src/main.js",
   "bin": {
+    "remoteenv": "bin/envops-cli.cjs",
     "envops": "bin/envops-cli.cjs",
     "env-service": "bin/env-service.cjs"
   },
@@ -44,6 +45,9 @@
   ],
   "author": "",
   "license": "ISC",
+  "publishConfig": {
+    "access": "public"
+  },
   "private": false,
   "type": "commonjs",
   "prisma": {
